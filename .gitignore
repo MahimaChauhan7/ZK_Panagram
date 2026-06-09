@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# Foundry build artifacts
+cache/
+out/
+
+# Noir generated inputs
+**/Prover.toml
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# OS
+.DS_Store
